@@ -1,0 +1,23 @@
+{
+  "empty_file": "el fichero {{file}} está vacio",
+  "not_found": "No encontrado",
+  "not_valid": "No válido",
+  "generic": "Hubo un error: {{err}}",
+  "generic2": "generic2",
+  "list": "Listado",
+  "listing": "Lista de anuncios",
+  "of": "de",
+  "name": "Nombre",
+  "sell": "Venta",
+  "price": "Precio",
+  "picture": "Foto",
+  "tags": "Tags",
+  "examples": "Ejemplos",
+  "all": "Todos (max. 1000)",
+  "pagination": "Paginado",
+  "asc": "Ordenado por precio ascendente",
+  "des": "Ordenado por precio descendente",
+  "mobile": "Con tag mobile",
+  "back": "Volver a la home",
+  "currencie": "€"
+}

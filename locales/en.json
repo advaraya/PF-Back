@@ -1,0 +1,23 @@
+{
+  "empty_file": "the file {{file}} is empty",
+  "not_found": "Not Found",
+  "not_valid": "Not valid",
+  "generic": "There was an error: {{err}}",
+  "generic2": "generic2",
+  "listing": "Listing",
+  "list": "List of ads",
+  "of": "of",
+  "name": "Name",
+  "sell": "Sell",
+  "price": "Price",
+  "picture": "Picture",
+  "tags": "Tags",
+  "examples": "Examples",
+  "all": "All (max of 100)",
+  "pagination": "Pagination",
+  "asc": "Order by ascendent price",
+  "des": "Order by decendent price",
+  "mobile": "With mobile tags",
+  "back": "Go back to homepage",
+  "currencie": "$"
+}

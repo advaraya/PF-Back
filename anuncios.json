@@ -1,0 +1,191 @@
+{
+  "anuncios": [
+    {
+      "nombre": "Bicicleta",
+      "descripcion": "Aqui va la descripción de la bicicleta",
+      "venta": true,
+      "precio": 23015,
+      "foto": "bici.jpg",
+      "tags": ["lifestyle", "motor"],
+      "username": "pepetrabas",
+      "url": "bicicleta",
+      "dateCreation": "2020/10/07"
+    },
+    {
+      "nombre": "iPhone 3GS",
+      "descripcion": "Aqui va la descripción del iphone",
+      "venta": false,
+      "precio": 5000,
+      "foto": "iphone.png",
+      "tags": ["lifestyle", "mobile"],
+      "username": "pepetrabas",
+      "url": "iphone-3gs",
+      "dateCreation": "2019/10/07"
+    },
+    {
+      "nombre": "Airpods",
+      "descripcion": "Airpods sin usar, compatibles con todos los Iphone",
+      "venta": false,
+      "precio": 150,
+      "foto": "airpods.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "pepetrabas",
+      "url": "airpods",
+      "dateCreation": "2020/10/02"
+    },
+    {
+      "nombre": "Bicicleta vintage",
+      "descripcion": "Aqui va la descripción",
+      "venta": false,
+      "precio": 500,
+      "foto": "bicycle.jpg",
+      "tags": ["lifestyle", "motor"],
+      "username": "pepetrabas",
+      "url": "bicilceta-vintage",
+      "dateCreation": "2020/10/06"
+    },
+    {
+      "nombre": "iPhone - Black",
+      "descripcion": "Aqui va la descripción del iphone",
+      "venta": false,
+      "precio": 200,
+      "foto": "blak iphone.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "pepetrabas",
+      "url": "iphone-black",
+      "dateCreation": "2019/10/07"
+    },
+    {
+      "nombre": "Libro Antiguo",
+      "descripcion": "Aqui va la descripción del libro",
+      "venta": false,
+      "precio": 50,
+      "foto": "book.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "pepetrabas",
+      "url": "libro-antiguo",
+      "dateCreation": "2020/10/03"
+    },
+    {
+      "nombre": "Pack de Cámaras",
+      "descripcion": "Aqui va la descripción de las camaras",
+      "venta": false,
+      "precio": 250,
+      "foto": "camera pack.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "pepetrabas",
+      "url": "pack-de-camaras",
+      "dateCreation": "2020/10/04"
+    },
+    {
+      "nombre": "Silla de diseño",
+      "descripcion": "Aqui va la descripción de la silla",
+      "venta": false,
+      "precio": 500,
+      "foto": "design chair.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "adela",
+      "url": "silla-de-diseno",
+      "dateCreation": "2020/10/05"
+    },
+    {
+      "nombre": "Cargador de iPhone",
+      "descripcion": "Aqui va la descripción del cargador",
+      "venta": false,
+      "precio": 50,
+      "foto": "iphone charger.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "adela",
+      "url": "cargador-de-iphone",
+      "dateCreation": "2020/10/06"
+    },
+    {
+      "nombre": "iPhone Blanco",
+      "descripcion": "Aqui va la descripción del iphone blanco",
+      "venta": true,
+      "precio": 50,
+      "foto": "iphone.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "adela",
+      "url": "iphone-blanco",
+      "dateCreation": "2020/08/07"
+    },
+    {
+      "nombre": "Lámpara",
+      "descripcion": "Aqui va la descripción de la lámpara",
+      "venta": true,
+      "precio": 50,
+      "foto": "lamp.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "adela",
+      "url": "lampara",
+      "dateCreation": "2020/10/02"
+    },
+    {
+      "nombre": "MacBook",
+      "descripcion": "Aqui va la descripción del ordenador",
+      "venta": false,
+      "precio": 1500,
+      "foto": "macbook.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "adela",
+      "url": "macbook",
+      "dateCreation": "2020/10/04"
+    },
+    {
+      "nombre": "Moto",
+      "descripcion": "Aqui va la descripción de la moto",
+      "venta": false,
+      "precio": 500,
+      "foto": "motorcycle.jpg",
+      "tags": ["lifestyle", "motor"],
+      "username": "adela",
+      "url": "moto",
+      "dateCreation": "2020/12/05"
+    },
+    {
+      "nombre": "Cámara de fotos",
+      "descripcion": "Aqui va la descripción de la cámara",
+      "venta": false,
+      "precio": 350,
+      "foto": "photo camera.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "adela",
+      "url": "camara-de-fotos",
+      "dateCreation": "2020/12/05"
+    },
+    {
+      "nombre": "Cámara de fotos antigua",
+      "descripcion": "Aqui va la descripción de la camara",
+      "venta": false,
+      "precio": 600,
+      "foto": "photocamera.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "myusername",
+      "url": "camara-de-fotos-antigua",
+      "dateCreation": "2020/12/05"
+    },
+    {
+      "nombre": "Teléfono antiguo",
+      "descripcion": "Aqui va la descripción del teléfono",
+      "venta": false,
+      "precio": 5000,
+      "foto": "telephone.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "myusername",
+      "url": "telefono-antiguo",
+      "dateCreation": "2020/10/03"
+    },
+    {
+      "nombre": "Silla vintage",
+      "descripcion": "Aqui va la descripción de la silla",
+      "venta": false,
+      "precio": 25,
+      "foto": "vintage chair.jpg",
+      "tags": ["lifestyle", "mobile"],
+      "username": "myusername",
+      "url": "silla-vintage",
+      "dateCreation": "2020/12/05"
+    }
+  ]
+}

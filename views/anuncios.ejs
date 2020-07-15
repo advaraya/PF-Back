@@ -1,0 +1,75 @@
+<% include _header %>
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="/" class="navbar-brand">Nodeapi</a>
+
+      <% getLocales().forEach( locale => { %>
+      <a href="/change-locale/<%= locale %>" class="navbar-brand"
+        ><%= locale %></a
+      >
+      <% }) %>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1><%= __('list') %></h1>
+      <p class="lead">
+        <%= __('listing') %>: <%= anuncios.length %> <%= __('of') %> <%= total
+        %>
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th><%= __('name') %></th>
+            <th><%= __('sell') %></th>
+            <th style="text-align: right;"><%= __('price') %></th>
+            <th><%= __('picture') %></th>
+            <th><%= __('tags') %></th>
+            <th>#</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% anuncios.forEach(anuncio => { %>
+          <tr>
+            <td><%= anuncio.nombre %></td>
+            <td><%= anuncio.venta ? 'Si' : 'No' %></td>
+            <td style="text-align: right;">
+              <%= anuncio.precio / 100 %><%= __('currencie') %>
+            </td>
+            <td><img src="<%= anuncio.foto %>" /></td>
+            <td><%= anuncio.tags %></td>
+            <td><%= anuncio._id %></td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
+
+      <p><%= __('examples') %>:</p>
+
+      <ul>
+        <li><a href="?"><%= __('all') %></a></li>
+        <li><a href="?start=2&limit=2"><%= __('pagination') %></a></li>
+        <li>
+          <a href="?sort=precio"><%= __('asc') %></a>
+        </li>
+        <li>
+          <a href="?sort=-precio"><%= __('des') %></a>
+        </li>
+        <li><a href="?tag=mobile"><%= __('mobile') %></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <a href="/"><%= __('back') %></a>
+</div>
+<% include _footer %>
