@@ -37,7 +37,7 @@
     "nodemon": "^2.0.2",
     "serve-favicon": "^2.5.0",
     "slugify": "^1.4.4",
-    "validator": "^4.0.6"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "jscs": "^2.1.1",
